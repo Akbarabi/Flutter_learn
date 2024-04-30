@@ -1,0 +1,35 @@
+#Widgets
+Widget dibagi menjadi dua yaitu bawaan dan custom. Custom widget dapat menggunakan 2 state yaitu stateless dan
+state yang dapat menyimpan sebuah nilai. Widget custom bisa kita buat sesuka kita sendiri,
+cara pembuatan custom widget sama dengan template yang disediakan oleh Flutter.
+Contoh : 
+// class MyHomePage extends StatefulWidget {
+// }
+Kurang lebih caranya seperti diatas.
+
+#Basic app
+*MaterialApp adalah pintu gerbang aplikasi dari google 
+*Scaffold adalah widget utama untuk mengubah halaman app
+biasanya ketika menggunakan MaterialApp pasti akan di beri scaffold di bawahnya
+kegunaannya adalah untuk menjadi widget tingkat atas yang berguna untuk merubah visual design app
+*AppBar merupakan default design untuk bagian atas aplikasi, appbar mirip dengan navbar
+*Body merupakan konten utama yang ditampilkan pada aplikasi
+Contoh : 
+// void main(){
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(
+//         title: const Text('My First App'),
+//         backgroundColor: Colors.green[500],
+//         centerTitle: true,
+
+//       ),
+//       body: const Center(
+//         child: Text('Hello, World!'),
+//       ),
+//       ),
+//     ),
+//   );
+// }
+
+#Container adalah
